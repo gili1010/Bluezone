@@ -2,7 +2,7 @@ html{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-size: 12px;
+     font-size: 11px;
 }
 
 
@@ -18,7 +18,7 @@ html{
      box-shadow: 0px 41px 34px -44px rgba(0,0,0,0.95);
      -webkit-box-shadow: 0px 41px 34px -44px rgba(0,0,0,0.95);
      -moz-box-shadow: 0px 41px 34px -44px rgba(0,0,0,0.95);
-width: 150px;
+width: 130px;
 }
 
 .login{
@@ -40,7 +40,7 @@ width: 150px;
      color: #2340ff;
      font-weight: bolder;
      border-radius: 20px;
-     padding: 3px 20px;
+     padding: 4px 25px;
 }
 .btn-blanco:hover{
      background-color: #546bff;
@@ -50,7 +50,7 @@ width: 150px;
 input{
      border: 1px #546bff solid;
      border-radius: 10px;
-     padding: 0 15px;
+     padding: 2px 45px;
 }
 
 label{
@@ -62,8 +62,18 @@ span a{
      text-decoration: none;
      color: #c9c9c9;
      font-weight: normal;
+     font-size: 9px;
  }
 
  span a:hover{
      color: #546bff;
+ }
+
+ .check{
+      margin-top: 10px;
+ }
+
+ .recordarme label{
+     color: #c9c9c9;
+     font-weight: normal;
  }
