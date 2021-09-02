@@ -2,6 +2,7 @@ html{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     font-size: 12px;
 }
 
 
@@ -34,11 +35,12 @@ width: 150px;
 }
 
 .btn-blanco{
-     border: 2px #546bff solid;
+     border: 1px #546bff solid;
      background-color: #fff;
      color: #2340ff;
+     font-weight: bolder;
      border-radius: 20px;
-     padding: 2px 10px;
+     padding: 3px 20px;
 }
 .btn-blanco:hover{
      background-color: #546bff;
@@ -46,11 +48,22 @@ width: 150px;
 }
 
 input{
-     border: 2px #c9c9c9 solid;
+     border: 1px #546bff solid;
      border-radius: 10px;
-     padding: 0 10px;
+     padding: 0 15px;
 }
 
 label{
-     color: #464646;
+     color: #000;
+     font-weight: bolder;
 }
+
+span a{
+     text-decoration: none;
+     color: #c9c9c9;
+     font-weight: normal;
+ }
+
+ span a:hover{
+     color: #546bff;
+ }
